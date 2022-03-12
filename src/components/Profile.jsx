@@ -3,7 +3,7 @@ import React from 'react';
 const Profile = () => {
   return <div className='content'>
     <div>
-      <img src='https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-dYqcJNaTEUf8.jpg' />
+      <img src='https://img.freepik.com/free-vector/starry-universe-space-galaxy-nebula-stars-and-stardust-vector-cosmic-background-with-blue-and-purple-realistic-nebulosity-and-shining-stars-colorful-cosmos-infinite-night-sky-wallpaper-backdrop_8071-4831.jpg' />
     </div>
     <div>
       ava + description
