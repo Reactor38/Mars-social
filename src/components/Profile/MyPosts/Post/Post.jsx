@@ -7,8 +7,7 @@ const Post = (props) => {
         {props.message}
         <div>
             <img src="https://ps.w.org/like-dislike-plus-counter/assets/icon-256x256.png?rev=1896852" alt="Like" />
-            <span>like</span>
-            {props.likeCount}
+            <span>like</span> {props.likesCount}
         </div>
     </div>
 }
