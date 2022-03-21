@@ -11,10 +11,12 @@
     color: gold;
 }
 
+.dialogsItems img {
+    width: 30px;
+    border-radius: 50%;
+}
+
 .messages{
     padding: 10px;
 }
 
-.messages {
-
-}

@@ -1,0 +1,12 @@
+.title {
+    color: wheat;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.friends {
+    display: flex;
+}
+
+
+
