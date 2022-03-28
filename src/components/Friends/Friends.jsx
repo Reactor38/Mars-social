@@ -4,8 +4,7 @@ import Friend from './Friend/Friend';
 
 const Friends = (props) => {
 
-    let friendsElements = props.friends.map(f => <Friend name={f.name} />);
-
+    let friendsElements = props.friends.map(f => <Friend key={f.id} name={f.name} />);
     return (
         <div className={s.friendsBLock}>
             <h3 className={s.title}>Friends</h3>
@@ -13,7 +12,7 @@ const Friends = (props) => {
                 {friendsElements}
             </div>
         </div>
-    );
+    )
 }
 
 export default Friends;
