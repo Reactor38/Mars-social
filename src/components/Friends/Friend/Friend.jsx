@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './Friend.module.css';
+import avatar from '../../../assets/images/Avatar.png'
 
 const Friend = (props) => {
     return (
         <div className={s.itemName}>
-            <img src="https://www.shareicon.net/data/512x512/2016/05/29/772559_user_512x512.png" alt="Avatar" />
+            <img src={avatar} alt="Avatar" />
             {props.name}
         </div>
     );

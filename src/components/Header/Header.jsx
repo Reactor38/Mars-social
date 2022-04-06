@@ -1,10 +1,20 @@
 import React from 'react';
 import s from './Header.module.css';
+import logo from '../../assets/images/logo.jpg'
+import { NavLink } from 'react-router-dom';
 
-const Header = () => {
-    return <header className={s.header}>
-        <img src='https://img1.freepng.ru/20180214/uqe/kisspng-planet-mars-hand-painted-red-planet-5a840cc689e698.2421128615186034625649.jpg' alt='Logo' />
-    </header>
+const Header = (props) => {
+    return (
+        <header className={s.header}>
+            <img src={logo} alt='Logo' />
+
+            <div className={s.loginBlock}>
+                {props.isAuth
+                    ? props.login
+                    : <NavLink to='/login'>Login</NavLink>}
+            </div>
+        </header>
+    )
 }
 
 export default Header;

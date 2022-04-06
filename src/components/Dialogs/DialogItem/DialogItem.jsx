@@ -1,6 +1,7 @@
 import React from "react";
 import s from './../Dialogs.module.css';
 import { NavLink } from "react-router-dom";
+import avatar from '../../../assets/images/Avatar.png'
 
 const DialogItem = (props) => {
 
@@ -8,7 +9,7 @@ const DialogItem = (props) => {
 
     return (
         <div className={s.dialog + ' ' + s.active}>
-            <img src="https://www.shareicon.net/data/512x512/2016/05/29/772559_user_512x512.png" alt="Avatar" />
+            <img src={avatar} alt="Avatar" />
             <NavLink to={path}>{props.name}</NavLink>
         </div>
     )
