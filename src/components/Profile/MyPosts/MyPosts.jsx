@@ -27,15 +27,12 @@ const AddPostForm = (props) => {
 
 const AddPostReduxForm = reduxForm({ form: "addPostForm" })(AddPostForm)
 
-const MyPosts = (props) => {
+const MyPosts = React.memo((props) => {
+    let postsElements = props.posts.map(p => <Post key={p.id} message={p.message} likesCount={p.likesCount} />);
 
-    let postsElements =
-        props.posts.map(p => <Post key={p.id} message={p.message} likesCount={p.likesCount} />);
-
-    const addPost = (values) => {
+    const addPost = values => {
         props.addPost(values.newPostText);
-    }
-
+    };
 
     return (
         <div className={s.postsBlock}>
@@ -45,9 +42,8 @@ const MyPosts = (props) => {
                 {postsElements}
             </div>
         </div>
-    )
-}
-
+    );
+});
 
 
 
