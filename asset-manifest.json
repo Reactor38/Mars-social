@@ -1,7 +1,7 @@
 {
   "main.css": "/Mars-social/static/css/main.2ad5f06b.chunk.css",
-  "main.js": "/Mars-social/static/js/main.ff5e5141.chunk.js",
-  "main.js.map": "/Mars-social/static/js/main.ff5e5141.chunk.js.map",
+  "main.js": "/Mars-social/static/js/main.d17008a8.chunk.js",
+  "main.js.map": "/Mars-social/static/js/main.d17008a8.chunk.js.map",
   "static/css/1.2489f2d4.chunk.css": "/Mars-social/static/css/1.2489f2d4.chunk.css",
   "static/js/1.62ae6e6d.chunk.js": "/Mars-social/static/js/1.62ae6e6d.chunk.js",
   "static/js/1.62ae6e6d.chunk.js.map": "/Mars-social/static/js/1.62ae6e6d.chunk.js.map",
@@ -18,6 +18,6 @@
   "static/css/1.2489f2d4.chunk.css.map": "/Mars-social/static/css/1.2489f2d4.chunk.css.map",
   "static/css/2.dfa7073d.chunk.css.map": "/Mars-social/static/css/2.dfa7073d.chunk.css.map",
   "index.html": "/Mars-social/index.html",
-  "precache-manifest.1d6ed8ced93b6cc1ef82500758dba717.js": "/Mars-social/precache-manifest.1d6ed8ced93b6cc1ef82500758dba717.js",
+  "precache-manifest.1e38c94d1580982f717d680dd4bab616.js": "/Mars-social/precache-manifest.1e38c94d1580982f717d680dd4bab616.js",
   "service-worker.js": "/Mars-social/service-worker.js"
 }

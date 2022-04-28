@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ff5e5141c60d1ebf59d1",
+    "revision": "d17008a8c78b0df02580",
     "url": "/Mars-social/static/css/main.2ad5f06b.chunk.css"
   },
   {
-    "revision": "ff5e5141c60d1ebf59d1",
-    "url": "/Mars-social/static/js/main.ff5e5141.chunk.js"
+    "revision": "d17008a8c78b0df02580",
+    "url": "/Mars-social/static/js/main.d17008a8.chunk.js"
   },
   {
     "revision": "62ae6e6d34ba2a25c6f3",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/Mars-social/static/media/logo.2e195f2f.jpg"
   },
   {
-    "revision": "18540c136c90272448275139339ba494",
+    "revision": "09f34cdc740f8a848cb05a35a640f4f8",
     "url": "/Mars-social/index.html"
   }
 ];
