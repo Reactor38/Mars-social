@@ -4,6 +4,7 @@
   "homepage": "https://reactor38.github.io/Mars-social",
   "private": true,
   "dependencies": {
+    "async": "^2.6.4",
     "axios": "^0.26.1",
     "classnames": "^2.3.1",
     "react": "^16.6.3",
