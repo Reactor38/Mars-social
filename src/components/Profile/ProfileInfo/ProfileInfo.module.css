@@ -5,3 +5,14 @@
 .descriptionBlock img {
     width: 200px;
 }
+
+.contact {
+    padding-left: 10px;
+}
+
+.formSummaryError {
+    border: 2px solid red;
+    padding: 5px;
+    font-size: 20px;
+    color: darkblue;
+}
